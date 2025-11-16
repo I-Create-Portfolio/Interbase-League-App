@@ -1388,8 +1388,8 @@ https://templatemo.com/tm-599-noir-fashion
 
 :root {
 	--primary: #f8f6f6;
-	--accent: #0d98ef;
-	--accent-hover: #ff1149;
+	--accent: #d1a810;
+	--accent-hover: #0c476b;
 	--text-light: #2a1503;
 	--text-muted: #edf4c4;
 	--bg-dark: #8c8484;
@@ -1406,7 +1406,7 @@ section {
 
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	background: RED;
+	background: rgb(44, 34, 34);
 	color: var(--text-light);
 	overflow-x: hidden;
 }
@@ -1631,13 +1631,18 @@ nav.scrolled {
 	.nav-links a {
 		font-size: 12px;
 	}
+.about-us {
 
+	background: rgba(236, 151, 14, 0.98);
+
+}
 	nav.scrolled {
 		padding: 10px 30px;
 	}
 
 	.hero-container {
 		padding: 0 30px;
+	
 	}
 
 	.hero-title {
@@ -1660,7 +1665,7 @@ nav.scrolled {
 	.collections,
 	.featured,
 	.contact {
-		padding-top: 120px;
+		padding-top: 10px;
 	}
 
 	section {
@@ -2398,6 +2403,13 @@ nav.scrolled {
 	z-index: 1;
 }
 
+hr {
+  border: none; /* Remove default border */
+  height: 2px; /* Set desired thickness */
+  background-color: #ccc; /* Set desired color */
+  margin: 20px 0; /* Add space above and below */
+}
+
 .featured-container {
 	max-width: 1400px;
 	margin: 0 auto;
@@ -2721,9 +2733,9 @@ nav.scrolled {
 
 /* Contact Section */
 .contact {
-	padding: 120px 50px 100px;
+	padding: 80px 20px 50px;
 	background: var(--bg-section);
-	background: #9f7f7f;
+	background: rgba(236, 151, 14, 0.98);
 }
 
 .contact-container {
@@ -2945,7 +2957,7 @@ nav.scrolled {
 
 /* Footer */
 footer {
-	background: #000;
+	background: rgba(236, 151, 14, 0.98);
 	padding: 80px 50px 30px;
 	border-top: 1px solid #222;
 }
